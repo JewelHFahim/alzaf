@@ -44,7 +44,7 @@ const Navbar = () => {
         <input
           type="text"
           placeholder="Search Poduct"
-          className="w-full bg-transparent h-full rounded-l-[10px] text-sm Search Product p-[13px]"
+          className="w-full bg-transparent h-full rounded-l-[10px] text-sm Search Product p-[13px] outline-none"
         />
         <button className="w-[47px] bg-primary text-white text-[24px] flex justify-center items-center rounded-[10px] h-full">
           <FiSearch />
