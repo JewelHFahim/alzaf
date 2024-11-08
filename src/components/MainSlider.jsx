@@ -28,7 +28,7 @@ export default function MainSlider() {
       >
         {[...Array(5)].map((item, idx) => (
           <SwiperSlide key={idx}>
-            <div className="h-[40vh] md:h-[391px] bg-green-300 relative ">
+            <div className="h-[40vh] md:h-[391px] relative ">
               <Image src="/slide banner.png" alt="" fill className="w-full h-full" />
             </div>
           </SwiperSlide>

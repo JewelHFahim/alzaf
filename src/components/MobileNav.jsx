@@ -9,7 +9,7 @@ const MobileNav = () => {
   const [openSearch, setOpenSearch] = useState(false);
 
   return (
-    <div className="w-full h-[50px] px-4 bg-white border-b md:hidden fixed z-[99] top-0">
+    <div className="w-full h-[50px] px-4 bg-white border-b md:hidden fixed z-[999] top-0">
       
       <div className="flex justify-between items-center relative w-full h-full">
         <div>

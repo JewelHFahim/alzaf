@@ -33,7 +33,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className=" lg:w-[63.5%] px-4 lg:px-0 mt-[13px] mx-auto hidden md:flex items-center justify-between gap-x-4 relative">
+    <div className=" lg:w-[63.5%] px-4 lg:px-0 pt-[25px] mt-[13px] mx-auto hidden md:flex items-center justify-between gap-x-4 relative">
       <Link href="/" className="h-[37px]">
         <div className="w-[100px] h-[30px] lg:w-[129px] lg:h-[37.5px] relative">
           <Image src="/alfaz-logo.png" alt="" fill />
@@ -89,7 +89,7 @@ const Navbar = () => {
       </div>
 
       {router === "/" && (
-        <div className="absolute left-0 top-[57.5px] z-[999] bg-white shadow-md ">
+        <div className="absolute left-0 top-[95px] z-[999] bg-white shadow-md">
           <CategoryMenu data={menus} />
         </div>
       )}

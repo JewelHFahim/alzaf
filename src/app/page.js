@@ -3,7 +3,7 @@ import Products from "@/components/Products";
 
 export default function Home() {
   return (
-    <div className="mt-2">
+    <div>
       <MainSlider />
       <Products />
     </div>

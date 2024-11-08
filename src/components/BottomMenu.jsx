@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React from "react";
-import { FiGrid, FiHome, FiMessageSquare, FiUser } from "react-icons/fi";
+import { FiGrid, FiHome, FiMessageSquare } from "react-icons/fi";
 import MobileDrawerMenu from "./MobileDrawerMenu";
+import React from "react";
 
 const BottomMenu = () => {
   const router = usePathname();

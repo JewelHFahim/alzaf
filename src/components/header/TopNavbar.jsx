@@ -3,7 +3,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 const TopNavbar = () => {
   return (
-    <div className="bg-[#F0F1F1] w-full h-[25px] hidden md:block">
+    <div className="bg-[#F0F1F1] border-b shadow-sm w-full h-[25px] z-[9999] hidden md:fixed top-0">
       <div className="lg:w-[63.5%] px-4 lg:px-0 mx-auto flex justify-between items-center text-xs text-[#434343] h-full">
         <div className="flex justify-center items-center gap-[35px]">
           <Link href="/" className="flex items-center">
