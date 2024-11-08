@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#F97316",
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
       },
     },
   },

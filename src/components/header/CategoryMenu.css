@@ -1,0 +1,44 @@
+CategoryMenu.css
+.category-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-item {
+  position: relative;
+  padding: 3px;
+}
+
+.category-link {
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.category-link:hover {
+  color: #f97316;
+}
+
+.category-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.sub-category-menu {
+  display: none;
+  position: absolute;
+  margin-left: 1px;
+  top: 0;
+  left: 100%;
+  white-space: nowrap;
+  background: #fff;
+  border-right: 1px solid #cbc9c9;
+  min-width: 200px;
+}
+
+.category-item:hover > .sub-category-menu {
+  display: block;
+}
